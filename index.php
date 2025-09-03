@@ -14,10 +14,10 @@ rel="stylesheet">
 <a class="navbar-brand" href="#">Iris</a> 
 <div> 
 <ul class="navbar-nav"> 
-<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-<li class="nav-item"><a class="nav-link" href="form.html">Form</a></li> 
-<li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
-<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> 
+<li class="nav-item"><a class="nav-link" href="form.php">Form</a></li> 
+<li class="nav-item"><a class="nav-link" href="about.php">About</a></li> 
+<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li> 
 </ul> 
 </div> 
 </div> 
@@ -26,7 +26,7 @@ rel="stylesheet">
 <div class="container text-center mt-5"> 
 <h1>Welcome to Iris</h1> 
 <p>Start building your web application efficiently.</p> 
-<a href="form.html" class="btn btn-primary">Go to Form</a> 
+<a href="form.php" class="btn btn-primary">Go to Form</a> 
 </div> 
 </body> 
 </html>
