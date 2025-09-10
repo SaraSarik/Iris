@@ -81,6 +81,11 @@ $result = $stmt->get_result();
                         echo date("d-M-Y H:i", strtotime($row['created_at'])); 
                         ?>
                     </td>
+                    <td> 
+                    <a href="update.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm">Edit</a> 
+                    <a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm" 
+                    onclick="return confirm('Are you sure?');">Delete</a> 
+                    </td> 
                 </tr>
             <?php endwhile; ?>
         <?php else: ?>
