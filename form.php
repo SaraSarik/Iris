@@ -40,7 +40,8 @@
         </div>
         <button type="submit" class="btn btn-success">Submit</button>
         <button type="reset" class="btn btn-secondary">Clear Form</button>
-    </form>
+        <a href="view.php" class="btn btn-success text-white text-decoration-none">View Entries</a>
+</form>
 </div>
 
 <script>
